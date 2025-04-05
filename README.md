@@ -1,8 +1,8 @@
-#Stock Price Prediction
+# Stock Price Prediction
 
 This project aims to predict stock prices using historical data and key technical indicators. I focused on implementing a clean and effective machine learning workflow using Linear Regression, which surprisingly outperformed more complex models like Random Forest and XGBoost for this dataset.
 
-Objective
+## Objective
 
 The goal was to:
 
@@ -14,7 +14,7 @@ Train and evaluate regression models to predict 'Close' prices
 
 Compare model performance and select the best one
 
-Features Used
+## Features Used
 
 50-day EMA
 
@@ -28,7 +28,7 @@ Volume
 
 After checking feature correlation, I dropped highly correlated ones like Open, Low, and Bollinger Bands.
 
-Models Tried
+## Models Tried
 
 Linear Regression (best performing)
 
@@ -38,7 +38,7 @@ XGBoost Regressor
 
 Despite being simpler, Linear Regression gave the best performance in this case, possibly due to the clean and linear nature of the processed data.
 
-Visualizations
+## Visualizations
 
 RSI trends
 
@@ -48,7 +48,7 @@ Actual vs Predicted scatter plot
 
 These helped in understanding the stock movement patterns and model performance visually.
 
-Libraries Used
+## Libraries Used
 
 yfinance
 
@@ -58,7 +58,7 @@ matplotlib, seaborn
 
 scikit-learn
 
-Final Thoughts
+## Final Thoughts
 
 This project helped reinforce my understanding of:
 
